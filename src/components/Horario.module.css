@@ -1,0 +1,12 @@
+.pHora:hover {
+    cursor: pointer;
+    background-color: #005cb8;
+    transition: color 5s ease;
+}
+.pHora{
+    background-color: #1E90FF;
+    
+}
+.pSelecionado {
+    background-color: green;
+}

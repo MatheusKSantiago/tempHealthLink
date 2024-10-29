@@ -1,0 +1,108 @@
+.containerDemandaConsulta{
+    display: flex;
+    margin-top: 10vh;
+    background-color: #066c94;
+    flex-direction: column;
+}
+
+.containerDemandaConsulta .selecao{
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to left, #4CAF50, #1E90FF);
+    
+
+}
+.selecao div{
+    padding: 1em;
+
+}
+.containerDemandaConsulta .divAno{
+    display: flex;
+    justify-content: center;
+    
+    flex:1;
+}
+.containerDemandaConsulta .divEspecialidade{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    
+}
+.containerDemandaConsulta .divMes{
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+.containerDemandaConsulta select{
+    height: 5vh;
+    background-color: rgb(235, 235, 235);
+    color: black;
+
+}
+.containerDemandaConsulta label{
+    transform: translateY(10%);
+}
+
+.containerDemandaConsulta .exibicaoDoMes{
+    display: flex;
+    
+    justify-content: center;
+
+}
+.exibicaoDoMes .dias .dia {
+    
+    text-align: center;
+    width: 16.83vh;
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+    
+    
+}
+.exibicaoDoMes .dias .dia:hover {
+    cursor: pointer;
+    animation: diaAnimacao 0.2s ease-in-out forwards;
+    
+}
+.exibicaoDoMes .dias .dia:hover p{
+    animation: pDiaAnimacao 0s ease-in-out forwards;    
+}
+@keyframes pDiaAnimacao {
+    0%{
+        border: 0px solid rgba(0, 0, 0, 0.788);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+    100%{
+        border: 0px solid black;
+        box-shadow: 
+        5px 5px 10px #dbfff0e1,
+        -5px -5px 10px #dbfff0e1;
+    }
+}
+@keyframes diaAnimacao {
+    0% {
+        background-color: white;
+    }
+    100%{
+        background-color: rgb(73, 175, 144);
+    }
+}
+.exibicaoDoMes .dias .dia p{
+    
+    text-align: center;
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    background-color: rgba(100, 190, 163, 0.5);
+}
+.exibicaoDoMes .dias{
+    margin-top: 2em;
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1.5%;
+    margin-bottom: 1em;
+}

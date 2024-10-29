@@ -1,0 +1,122 @@
+.containerLogin {
+    
+    display: flex;
+    background-color: rgb(73, 175, 144);
+    margin: 8vh;
+    height: 84vh;
+    border-radius: 10%;
+    
+}
+
+.boasVindas {
+    background: linear-gradient(to right, #4CAF50, #1E90FF);
+    flex:3;
+    border-radius: 5% 0 0 5%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+h2{
+    text-align: center;
+    transform: translateY(-100%);
+}
+p{
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em;
+    color:rgb(214, 214, 214)
+}
+.btnAcessar p{
+    text-align: center;
+    
+    color:rgb(255, 255, 255)
+}
+.loginForm{
+    background-color: rgb(255, 255, 255);
+    flex:0;
+    border-radius: 0 5% 5% 0;
+    justify-items: center;
+    align-content: center;
+    display: none;
+}
+.animar {
+    display: block;
+    animation: formAparece 1.4s ease-out forwards;
+}
+.btnAcessar{
+    margin-top: 2em;
+    width: 40vh;
+    border-radius: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: rgb(73, 175, 144);
+    padding: 1.5em;
+    
+}
+.btnAcessar:hover{
+    cursor: pointer;
+    animation: animarBotao 0.2s  ease-out forwards;
+}
+@keyframes animarBotao {
+    0%{
+        background-color: rgb(73, 175, 144);
+    }
+    100% {
+        background-color: rgb(22, 92, 71);
+    }
+}
+.desaparecer{
+    display: none;
+}
+@keyframes formAparece {
+    0% {
+        opacity: 0;
+      flex: 0
+    }
+    100% {
+        opacity: 1;
+      flex: 5
+    }
+  }
+
+.inputDiv{
+    display: flex;
+    width: 50%;
+    background-color: rgba(230, 255, 248, 0.87);
+}
+input{
+    color: black;
+    border: 0;
+    padding: 2em;
+    height: 5vh;
+    width: 40vh;
+    background-color: rgba(230, 255, 248, 0.87);
+}
+input[type="checkbox"]{
+    height: 3vh;
+    margin-left: 0;
+    display: inline;
+    width: auto;
+    padding: 0;
+    transform: translateY(25%);
+}
+span{
+    color: black;
+    
+}
+.icon {
+    width: 5vh;
+    height: 12vh;
+}
+h1 {
+    color: rgb(22, 92, 71);
+    padding-bottom: 7vh;
+}
+
+input:focus {
+    outline: none; 
+    border: 2px solid #4CAF50; 
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); 
+}

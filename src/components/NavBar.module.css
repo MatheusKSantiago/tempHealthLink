@@ -1,0 +1,24 @@
+ul {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(to right, #4CAF50, #1E90FF);
+}
+li{
+    list-style: none;
+    height: 10vh;
+    margin-right: 0;
+    
+}
+.imgContainer{
+    list-style: none;
+    height: 10vh;
+    justify-content: center;
+    flex:1;
+    display: flex;
+    
+}
+img{
+    height: 10vh;
+    margin-right: auto;
+    cursor: pointer;
+}

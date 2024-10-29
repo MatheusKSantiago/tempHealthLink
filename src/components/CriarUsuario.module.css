@@ -1,0 +1,28 @@
+.containerCriarUsuario {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    align-items: center;
+}
+
+.selectAcesso {
+    height: 5vh;
+    width: 50%;
+}
+.divInputLabel{
+    background-color: blue;
+    width: 50%;
+    display: flex;
+
+}
+.divInputLabel label{
+    flex: 1;
+}
+.divInputLabel input{
+    flex: 1;
+}
+.divInputLabel select{
+    flex: 1;
+    margin: 0;
+    padding: 2em;
+}

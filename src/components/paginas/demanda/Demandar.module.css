@@ -1,0 +1,67 @@
+.containerDemandar{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin-top: 12vh;
+    
+}
+
+.containerDemandar .horarios{
+    display: flex;
+    background-color: blue;
+    width: 80%;
+    flex-direction: column;
+}
+
+.btnVoltar{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    cursor: pointer;
+}
+.btnVoltar:hover{
+    background-color: rgba(189, 189, 189, 0.521);
+    transition: color 1s ease;
+}
+.inputVagas {
+    height: 5vh;
+    padding: 0;
+    margin: 0;
+}
+
+.divSelectsDemandar{
+    display:flex;
+    
+}
+.divSelectsDemandar select{
+    flex: 1;
+    background: linear-gradient(to left, #242424, #1E90FF);
+
+}
+.divSelectsDemandar select:focus option{
+    color: black;
+}
+.divSelectsDemandar input{
+    flex: 1;
+    background-color: rgba(230, 255, 248, 0.87);
+    padding-left: 1em;
+    
+}
+.divSelectsDemandar img{
+    height: 4vh;
+    
+}
+.divSelectsDemandar label{
+    background-color: whitesmoke;
+    
+}
+.divSelectsDemandar label:before{
+    content: "Vagas";
+    display: inline-block;
+    font-weight: bold;
+    transform: translateY(-50%);
+    color: black;
+    
+}
+.h3Especialidade{
+    text-align: center;
+}

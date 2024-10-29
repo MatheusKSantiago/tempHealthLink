@@ -1,0 +1,40 @@
+.containerGerenteInicio {
+    display: flex;
+    flex-direction: column;
+    
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerGerenteInicio .btn{
+    width: 50%;
+    height: 15vh;
+    background-color: rgb(185, 221, 255);
+    justify-items: center;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 39%;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.containerGerenteInicio .btn:hover {
+    cursor: pointer;
+    animation: animarBotaoGerenteInicio 0.2 linear forwards;
+}
+@keyframes animarBotaoGerenteInicio {
+    0%{
+        background-color: rgb(185, 221, 255);
+    }
+    100% {
+        background-color: rgb(37, 150, 255);
+    }
+}
+.containerGerenteInicio p {
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+    margin: auto;
+    
+    
+}
